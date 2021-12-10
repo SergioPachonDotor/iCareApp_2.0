@@ -31,4 +31,11 @@
     <string name="weight_kg">Weight (Kg)</string>
     <string name="height_m">Height (m)</string>
     <string name="estimate">Estimate!</string>
+    <string name="imc">IMC</string>
+    <string name="results">Results</string>
+    <string name="bmi">BMI</string>
+    <string name="basal_metabolic_rate">Basal Metabolic Rate Result</string>
+    <string name="bmr">BMR</string>
+    <string name="body_mass_index_result">Body Mass Index Result</string>
+    <string name="return_button">Return</string>
 </resources>

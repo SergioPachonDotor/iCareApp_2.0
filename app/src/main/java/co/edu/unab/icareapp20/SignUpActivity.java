@@ -19,7 +19,9 @@ public class SignUpActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //Toast.makeText(MainActivity.this,"Holy",Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
+                // Save Data
                 startActivity(intent);
+                finish();
             }
         });
     }

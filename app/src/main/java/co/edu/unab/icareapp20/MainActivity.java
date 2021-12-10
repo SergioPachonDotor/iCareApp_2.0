@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Button logInBtn = findViewById(R.id.loginButton);
 
         signUpBtn.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 //Toast.makeText(MainActivity.this,"Holy",Toast.LENGTH_SHORT).show();

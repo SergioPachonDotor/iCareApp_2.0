@@ -11,10 +11,20 @@
         android:theme="@style/Theme.ICareApp20">
         <activity
             android:name=".ResultsActivity"
-            android:exported="false" />
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoggedInActivity" />
+        </activity>
+
         <activity
             android:name=".LoggedInActivity"
-            android:exported="false" />
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
