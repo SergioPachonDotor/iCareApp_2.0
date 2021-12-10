@@ -24,4 +24,11 @@
     <string name="age">Age</string>
     <string name="submit">Submit</string>
     <string name="height">Height</string>
+    <string name="selectMale">Male</string>
+    <string name="selectFemale">Female</string>
+    <string name="selectOption">Select</string>
+    <string name="please_register_your_data">Please Register Your Data</string>
+    <string name="weight_kg">Weight (Kg)</string>
+    <string name="height_m">Height (m)</string>
+    <string name="estimate">Estimate!</string>
 </resources>

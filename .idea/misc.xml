@@ -4,8 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/sap98/AndroidStudioProjects/iCareApp20/app/src/main/res/layout/activity_logged.xml" value="0.209375" />
-        <entry key="..\:/Users/sap98/AndroidStudioProjects/iCareApp20/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/sap98/AndroidStudioProjects/iCareApp20/app/src/main/res/layout/activity_sign_up.xml" value="0.19375" />
+        <entry key="..\:/Users/sap98/AndroidStudioProjects/iCareApp20/app/src/main/res/layout/activity_logged_in.xml" value="0.33" />
+        <entry key="..\:/Users/sap98/AndroidStudioProjects/iCareApp20/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/sap98/AndroidStudioProjects/iCareApp20/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/sap98/AndroidStudioProjects/iCareApp20/app/src/main/res/layout/fragment_get_data.xml" value="0.209375" />
         <entry key="..\:/Users/sap98/AndroidStudioProjects/iCareApp20/app/src/main/res/layout/fragment_log_in.xml" value="0.25" />
         <entry key="..\:/Users/sap98/AndroidStudioProjects/iCareApp20/app/src/main/res/layout/fragment_login2.xml" value="0.22" />
@@ -13,6 +14,7 @@
         <entry key="..\:/Users/sap98/AndroidStudioProjects/iCareApp20/app/src/main/res/layout/include_data.xml" value="0.2028985507246377" />
         <entry key="..\:/Users/sap98/AndroidStudioProjects/iCareApp20/app/src/main/res/layout/show_results.xml" value="0.2028985507246377" />
         <entry key="..\:/Users/sap98/AndroidStudioProjects/iCareApp20/app/src/main/res/layout/sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/sap98/AndroidStudioProjects/iCareApp20/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11614583333333334" />
       </map>
     </option>
   </component>

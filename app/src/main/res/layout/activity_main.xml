@@ -20,92 +20,102 @@
         android:src="@drawable/icarelogo_2"
         android:contentDescription="@string/icareapp_logo" />
 
-        <EditText
-            android:id="@+id/userEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="32dp"
-            android:hint="@string/e_mail"
-            android:inputType="textEmailAddress"
-            android:importantForAutofill="no" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <EditText
+                android:id="@+id/userEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:hint="@string/e_mail"
+                android:inputType="textEmailAddress"
+                android:importantForAutofill="no" />
 
-        <EditText
-            android:id="@+id/userPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="32dp"
-            android:hint="@string/password"
-            android:inputType="textPassword"
-            android:importantForAutofill="no" />
-
-        <Button
-            android:id="@+id/loginButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginRight="32dp"
-            android:text="@string/login" />
-
-        <Button
-            android:id="@+id/signUpButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginRight="32dp"
-            android:text="@string/signup" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginBottom="8dp"
-            android:layout_gravity="center">
-            <ImageButton
-                android:id="@+id/facebookImageButton"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginLeft="32dp"
+            <EditText
+                android:id="@+id/userPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginRight="32dp"
-                android:layout_marginBottom="8dp"
-                android:contentDescription="@string/facebook_login"
-                android:scaleType="centerInside"
-                android:src="@drawable/facebook"
-                />
+                android:layout_marginEnd="32dp"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:importantForAutofill="no" />
 
-            <ImageButton
-                android:id="@+id/googleImageButton"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginLeft="32dp"
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:layout_marginRight="32dp"
                 android:layout_marginBottom="8dp"
-                android:contentDescription="@string/google_login"
-                android:scaleType="centerInside"
-                android:src="@drawable/google"
-                android:layout_centerInParent="true"/>
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:text="@string/login" />
 
-            <ImageButton
-                android:id="@+id/twitterImageButton"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginLeft="32dp"
+            <Button
+                android:id="@+id/signUpButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:layout_marginRight="32dp"
                 android:layout_marginBottom="8dp"
-                android:contentDescription="@string/twitter_login"
-                android:scaleType="centerInside"
-                android:src="@drawable/twitter"
-                android:layout_alignParentEnd="true"/>
-        </RelativeLayout>
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:text="@string/signup" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center">
+                <ImageButton
+                    android:id="@+id/facebookImageButton"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="@string/facebook_login"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/facebook"
+                    />
+
+                <ImageButton
+                    android:id="@+id/googleImageButton"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="@string/google_login"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/google"
+                    android:layout_centerInParent="true"/>
+
+                <ImageButton
+                    android:id="@+id/twitterImageButton"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="@string/twitter_login"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/twitter"
+                    android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
